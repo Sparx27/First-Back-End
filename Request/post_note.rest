@@ -1,0 +1,15 @@
+POST http://localhost:3001/api/notes/
+Content-type: application/json
+
+{
+  "content": "Very first server data created"
+}
+
+###
+
+POST http://localhost:3001/api/notes/
+Content-type: application/json
+
+{
+  "content": ""
+}
